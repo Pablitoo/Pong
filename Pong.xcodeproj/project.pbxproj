@@ -22,6 +22,7 @@
 		C1A3C878187E074F0007824C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A3C857187E074F0007824C /* UIKit.framework */; };
 		C1A3C880187E074F0007824C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1A3C87E187E074F0007824C /* InfoPlist.strings */; };
 		C1A3C882187E074F0007824C /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A3C881187E074F0007824C /* PongTests.m */; };
+		C1A3C88D187F58480007824C /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A3C88C187F58480007824C /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C1A3C87D187E074F0007824C /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
 		C1A3C87F187E074F0007824C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1A3C881187E074F0007824C /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
+		C1A3C88B187F58480007824C /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		C1A3C88C187F58480007824C /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				C1A3C86C187E074F0007824C /* ViewController.m */,
 				C1A3C86E187E074F0007824C /* Images.xcassets */,
 				C1A3C85A187E074F0007824C /* Supporting Files */,
+				C1A3C88B187F58480007824C /* MyView.h */,
+				C1A3C88C187F58480007824C /* MyView.m */,
 			);
 			path = Pong;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A3C88D187F58480007824C /* MyView.m in Sources */,
 				C1A3C86D187E074F0007824C /* ViewController.m in Sources */,
 				C1A3C864187E074F0007824C /* AppDelegate.m in Sources */,
 				C1A3C860187E074F0007824C /* main.m in Sources */,
@@ -474,6 +480,7 @@
 				C1A3C887187E074F0007824C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1A3C888187E074F0007824C /* Build configuration list for PBXNativeTarget "PongTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				C1A3C88A187E074F0007824C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
